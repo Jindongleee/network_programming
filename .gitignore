@@ -1,0 +1,19 @@
+# 바이너리 및 오브젝트 파일 무시
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.class
+*.pyc
+*.dll
+
+# MacOS 및 편집기 관련 불필요한 파일 무시
+.DS_Store
+.vscode
+
+# 나머지는 추적
+!*.c
+!*.h
+!Makefile
+!*.txt
