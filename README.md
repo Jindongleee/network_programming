@@ -1,2 +1,2 @@
-Multi thread (Mutex 사용) <br>
+Multi thread (Race Condition <- Mutex 사용) <br>
 Message Queue
