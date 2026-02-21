@@ -20,7 +20,7 @@ void remove_client(int sock) {
     int i, j;
     for (i = 0; i < client_count; ++i)
     {
-        if (client_socks[i] == sock)
+        if (client_socks[i] == sock) 
         {
             for (j = i; j < client_count - 1; ++j)
                 client_socks[j] = client_socks[j + 1];
